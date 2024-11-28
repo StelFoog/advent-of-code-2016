@@ -1,0 +1,25 @@
+{
+  "name": "advent-of-code-2016",
+  "type": "module",
+  "scripts": {
+    "task": "bun run src/index.ts",
+    "make-day": "bun run src/makeDay.ts"
+  },
+  "dependencies": {
+    "elf-help": "0.5.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "jsxSingleQuote": false,
+    "printWidth": 100,
+    "semi": true,
+    "tabWidth": 2,
+    "useTabs": true,
+    "trailingComma": "es5"
+  }
+}
